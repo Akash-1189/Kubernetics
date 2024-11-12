@@ -3,3 +3,13 @@ Kubectl get pods
 Kubectl expose deployment grafana-deployment grafana-deployment-devops --type="Node Port" --port=3000
 k get svc
 k edit grafana-deployment-devops
+
+#First Command: Creates a Deployment for running Grafana with one replica.
+
+Second Command: Lists the Pods to check the status of the created Deployment.
+
+Third Command: Exposes the Deployment using a NodePort service on port 3000.
+
+Fourth Command: Lists all Services to check the newly exposed service.
+
+Fifth Command: Opens the Deployment configuration for direct editing.
