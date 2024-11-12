@@ -1,1 +1,5 @@
-
+Kubectl create deployment grafana-deployment-devops --image=grafana/grafana --replicas=1
+Kubectl get pods
+Kubectl expose deployment grafana-deployment grafana-deployment-devops --type="Node Port" --port=3000
+k get svc
+k edit grafana-deployment-devops
